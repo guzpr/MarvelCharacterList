@@ -20,6 +20,14 @@ public class HeroesData {
             {" Captain America", "Steven \"Steve\" Grant Rogers", "https://vignette.wikia.nocookie.net/marveldatabase/images/b/b1/Captain_America_Vol_6_2_Textless.jpg/revision/latest?cb=20110719042719","Avengers",
                     "Peak Human Strength","http://www.stickpng" +
                     ".com/assets/images/5842a4f5a6515b1e0ad75af6.png","http://www.stickpng.com/assets/images/5842a4f5a6515b1e0ad75af6.png"},
+            {" Thor", "Thor Odinson", "https://vignette.wikia.nocookie.net/marveldatabase/images/b/b0/Thor_Vol_5_1_Textless.jpg/revision/latest?cb=20190114213830","Asgardians , Avengers",
+                    "Godlike Strength , Mjolnir","http://www.stickpng" +
+                    ".com/assets/images/5842a4f5a6515b1e0ad75af6.png"},
+            {" Human Torch", "Jonathan Storm", "https://vignette.wikia.nocookie" +
+                    ".net/marveldatabase/images/8/88" +
+                    "/Fantastic_Four_Vol_6_1_Human_Torch_Variant_Textless" +
+                    ".jpg/revision/latest?cb=20180523100956","Fantastic Four",
+                    "Pyrogenesis","https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Fantastic_Four_logo_%28blue_and_white%29.svg/283px-Fantastic_Four_logo_%28blue_and_white%29.svg.png"},
 
 
 
