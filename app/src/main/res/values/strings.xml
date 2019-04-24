@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Belajar Android</string>
+    <string name="app_name">Marvel Heroes List</string>
+    <string name="List">List</string>
+    <string name="grid">Grid</string>
+    <string name="cardview">CardView</string>
+    <string name="favorite">Favorite</string>
 </resources>

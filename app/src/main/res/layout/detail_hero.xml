@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/linearLayout2"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="25dp">
+
+
+            <ImageView
+                android:id="@+id/hero_photo"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:layout_weight="70"
+                android:scaleType="centerCrop"
+                tools:src="@mipmap/ic_launcher"/>
+
+            <TextView
+                android:id="@+id/hero_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hero_photo"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="23dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="11dp"
+                android:textColor="#000"
+                android:textSize="25sp"
+                android:typeface="normal"
+                tools:text="Hero Name" />
+
+            <ImageView
+                android:id="@+id/hero_logo"
+                android:layout_width="131dp"
+                android:layout_height="142dp"
+                android:layout_below="@+id/hero_photo"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="33dp"
+                android:layout_marginEnd="24dp"
+                android:scaleType="centerCrop"
+                tools:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/hero_realName"
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hero_name"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="55dp"
+                android:layout_toStartOf="@+id/hero_logo"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:typeface="normal"
+                tools:text="Hero real name" />
+
+            <TextView
+                android:id="@+id/hero_power"
+                android:layout_width="177dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hero_realName"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="53dp"
+                android:layout_toStartOf="@+id/hero_logo"
+                android:textColor="#000"
+                android:textSize="15sp"
+                tools:text="Power" />
+
+
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
